@@ -1,35 +1,29 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+#hexo-theme-gandalfr
 
-## 文档
 
-- [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
-- [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
 
-## 贡献
+Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
 
-该项目不再接受添加新特性、功能的 pull request，所有创造性的想法请 fork 该项目之后自由发挥。
+### Live Demo
 
-## 安装
+You can see from [here: mikecoder.github.io/oj-code](https://mikecoder.github.io/oj-code/)
 
-[![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
-
+### How to Install
 ``` bash
-hexo init Blog 
-cd Blog 
+" cd to your hexo dir
 npm install
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-tag-cloud
+git clone https://github.com/MikeCoder/hexo-theme-gandalfr.git themes/gandalfr
 ```
 
-## 启用
+## Enable the Theme
 
-修改 `_config.yml` 的 `theme` 配置项为 `apollo`:
+modify `_config.yml` to change `theme` to `gandalfr`:
 
 ```yaml
-theme: apollo
+theme: gandalfr
 
-# 在归档页面显示所有文章
-# 需要上面安装的 hexo-generator-archive 插件支持
+# Dependent on the hexo-generator-archive plugin
 archive_generator:
     per_page: 0
     yearly: false
@@ -37,13 +31,14 @@ archive_generator:
     daily: false
 ```
 
-## 更新
-
+## Update to the newest version
 ``` bash
-cd themes/apollo 
+cd themes/gandalfr
 git pull
 ```
 
-## License
+## Thanks
++ [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo)
 
-MIT
+## License
+See [@LICENSE](./LICENSE)

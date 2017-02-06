@@ -1,26 +1,26 @@
 {
-  "name": "hexo-theme-apollo",
+  "name": "hexo-theme-gandalfr",
   "version": "1.0.0",
-  "description": "A hexo theme inspired by vuejs.org",
+  "description": "Yet, just another blog theme for Hexo, based on hexo-theme-apollo",
   "main": "index.js",
   "scripts": {
     "sass": "gulp sass"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinggod/hexo-theme-apollo"
+    "url": "https://github.com/MikeCoder/hexo-theme-gandalfr"
   },
   "keywords": [
     "hexo",
     "theme",
     "apollo"
   ],
-  "author": "Sean Sun",
+  "author": "Sean Sun, Mike Tang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinggod/hexo-theme-apollo/issues"
+    "url": "https://github.com/MikeCoder/hexo-theme-gandalfr/issues"
   },
-  "homepage": "https://github.com/pinggod/hexo-theme-apollo#readme",
+  "homepage": "https://github.com/MikeCoder/hexo-theme-gandalfr#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
