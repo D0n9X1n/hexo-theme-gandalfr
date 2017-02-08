@@ -1,8 +1,13 @@
 #hexo-theme-gandalfr
 
-[![GitHub version](https://badge.fury.io/gh/MikeCoder%2Fhexo-theme-gandalfr.svg)](https://badge.fury.io/gh/MikeCoder%2Fhexo-theme-gandalfr)
+[![npm version](https://badge.fury.io/js/hexo-theme-gandalfr.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
 
 Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
+
+### Features
++ Code highlight.
++ Built-in hexo-tag-cloud support.
++ More comfortable with large screens.
 
 ### Live Demo
 
