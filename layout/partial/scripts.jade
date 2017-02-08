@@ -1,5 +1,7 @@
 //- LaTex
-script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")
+script(src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")
+script(src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" crossorigin="anonymous")
+script(src="//cdn.bootcss.com/jquery/3.1.1/jquery.js" crossorigin="anonymous")
 
 //- Analytics tracking
 - var ga = theme.ga
@@ -10,6 +12,4 @@ if ga
         | ,'auto');ga('send','pageview');
 
 script
-    <!-- Piwik --> <script type="text/javascript"> var _paq = _paq || []; // tracker methods like "setCustomDimension" should be called before "trackPageView" _paq.push(["setDocumentTitle", document.domain + "/" + document.title]); _paq.push(["setCookieDomain", "*.mikecoder.github.io"]); _paq.push(["setDomains", ["*.mikecoder.github.io/oj-code"]]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u="//piwik.mikecoder.cn/"; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })(); </script>script> <noscript><p><img src="//piwik.mikecoder.cn/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p>p></noscript>noscript> <!-- End Piwik Code -->
-
-
+    | $(document).ready(function() { $('pre').each(function(i, block) { hljs.highlightBlock(block); }); });

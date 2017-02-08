@@ -1,6 +1,6 @@
 #hexo-theme-gandalfr
 
-
+[![GitHub version](https://badge.fury.io/gh/MikeCoder%2Fhexo-theme-gandalfr.svg)](https://badge.fury.io/gh/MikeCoder%2Fhexo-theme-gandalfr)
 
 Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
 
@@ -10,10 +10,13 @@ You can see from [here: mikecoder.github.io/oj-code](https://mikecoder.github.io
 
 ### How to Install
 ``` bash
-" cd to your hexo dir
+# cd to your hexo dir
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-tag-cloud
 git clone https://github.com/MikeCoder/hexo-theme-gandalfr.git themes/gandalfr
+cd themes/gandalfr
+cp _config.yml.example _config.yml
+# modify the config file by yourself
 ```
 
 ## Enable the Theme
@@ -42,3 +45,6 @@ git pull
 
 ## License
 See [@LICENSE](./LICENSE)
+
+## TODO
+See [@TODO.md](./TODO.md)

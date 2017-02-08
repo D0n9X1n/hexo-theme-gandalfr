@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 
-// 一次性编译 Sass 
+// 一次性编译 Sass
 gulp.task('sass', function() {
     return gulp.src('./source/scss/*.scss')
         .pipe(sass({outputStyle: 'compressed'}))

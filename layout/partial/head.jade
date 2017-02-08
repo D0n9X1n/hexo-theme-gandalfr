@@ -1,7 +1,7 @@
 meta(charset="utf-8")
 meta(name="X-UA-Compatible", content="IE=edge")
 
-title 
+title
     block site_title
         = config.title
 block description
@@ -9,11 +9,12 @@ block description
 
 meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="icon", href=url_for(theme.favicon))
-link(rel="stylesheet", href=url_for("css/apollo.css"))
+link(rel="stylesheet", href=url_for("css/gandalfr.css"))
+link(rel="stylesheet", href=url_for("https://highlightjs.org/static/demo/styles/solarized-light.css"))
 
 - var xml = config.url + '/atom.xml'
     link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
-    
+
 script.
     var _paq = _paq || [];
     // tracker methods like "setCustomDimension" should be called before "trackPageView"

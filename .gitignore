@@ -6,4 +6,3 @@ node_modules/
 public/
 .deploy*/
 _config.yml
-source/css/apollo.css

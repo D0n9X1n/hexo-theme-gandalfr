@@ -1,18 +1,17 @@
 menu:
-    Blog: https://mikecoder.cn
-    OJ Games: /
+    Blog: /
     Archive: /archives/
-    GitHub: https://github.com/MikeCoder
-    Stackoverflow: https://stackoverflow.com/users/2907140/mike-tang
+    GitHub:
+    Stackoverflow:
     Rss: /atom.xml
 
 favicon: /favicon.ico
-logo: https://avatars1.githubusercontent.com/u/3142935?v=3&s=466
+logo: https://avatars1.githubusercontent.com/u/3142935?v=3&s=466 or file
 
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo: mikecoder-oj
+duoshuo:
 
 # Analytics
 # google-analytics:
