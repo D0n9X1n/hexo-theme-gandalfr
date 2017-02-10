@@ -24,6 +24,11 @@ cp _config.yml.example _config.yml
 # modify the config file by yourself
 ```
 
+### Install Hexo-tag-cloud
+This theme depends on [hexo-tag-cloud](https://github.com/MikeCoder/hexo-tag-cloud). You should install this plugin first.
+
+You can see from [Here](https://github.com/MikeCoder/hexo-tag-cloud) to learn how to install hexo-tag-cloud.
+
 ## Enable the Theme
 
 modify `_config.yml` to change `theme` to `gandalfr`:
