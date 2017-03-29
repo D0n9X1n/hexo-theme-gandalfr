@@ -1,4 +1,4 @@
-#hexo-theme-gandalfr
+# hexo-theme-gandalfr
 
 [![npm version](https://badge.fury.io/js/hexo-theme-gandalfr.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
 
