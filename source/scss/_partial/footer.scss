@@ -3,18 +3,30 @@
     text-align: center;
     .prev, .next {
         display: inline-block;
-        margin: 0 4px;
-        padding: 4px 12px;
-        border-radius: 4px;
+        padding: 4px 20px;
+        border-radius: 10px;
         border-bottom: 4px solid #3aa373;
-        font-size: 14px;
         color: #fff;
         background-color: #4fc08d;
         &:hover {
             background-color: #22bd77;
         }
-        width: 20%;
+        font-size: 15px;
+    }
+    .prev {
+        float: left;
+    }
+    .next {
+        float: right;
+    }
+    .page-number {
+        margin: 20px;
         font-size: 20px;
+        color: #22bd77;
+        padding: 10px;
+    }
+    .current {
+        color: #222 !important;
     }
 }
 
