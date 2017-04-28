@@ -8,4 +8,7 @@ mixin post()
     - var prev = page.prev ? page.prev.path : false;
     - var next = page.next ? page.next.path : false;
     .paginator
-        != paginator({prev_text: __('PREV'), next_text: __('NEXT')})
+        if prev
+            a.prev(href=url_for(prev))!= __('prev_post')
+        if next
+            a.next(href=url_for(next))!= __('next_post')
