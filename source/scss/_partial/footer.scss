@@ -1,5 +1,5 @@
 .paginator {
-    margin: 4em 0;
+    margin: 0em 0;
     text-align: center;
     .prev, .next {
         display: inline-block;
@@ -20,8 +20,8 @@
         float: right;
     }
     .page-number {
-        margin: 20px;
-        font-size: 20px;
+        margin: 10px;
+        font-size: 18px;
         color: #22bd77;
         padding: 10px;
     }
