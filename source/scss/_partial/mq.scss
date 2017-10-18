@@ -5,6 +5,7 @@ main.container {
 @media screen and (min-width: 700px) {
     .wrap {
         width: 55%;
+        min-width: 700px;
         margin: 0 auto;
     }
     header {
