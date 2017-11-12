@@ -20,3 +20,7 @@ livere:
 
 # Copyright Infomation
 startyear: 2017
+
+# Styles shoule be found in the list: https://highlightjs.org/static/demo/
+# use the lowercase letters and replace space with -
+codestyle: solarized-light
