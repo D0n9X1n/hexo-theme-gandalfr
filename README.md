@@ -45,6 +45,16 @@ archive_generator:
     daily: false
 ```
 
+## Change the Code Style
+
+modify `_config.yml` to change the codestyle block:
+
+```
+# Styles shoule be found in the list: https://highlightjs.org/static/demo/
+# use the lowercase letters and replace space with -
+codestyle: solarized-light
+```
+
 ## Update to the newest version
 ``` bash
 cd themes/gandalfr
