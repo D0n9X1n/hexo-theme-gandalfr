@@ -1,8 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
-    GitHub:
-    Stackoverflow:
+    GitHub: /
+    Stackoverflow: /
     Rss: /atom.xml
 
 favicon: /favicon.ico
