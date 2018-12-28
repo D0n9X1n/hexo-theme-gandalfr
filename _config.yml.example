@@ -9,10 +9,9 @@ favicon: /favicon.ico
 logo: https://avatars1.githubusercontent.com/u/3142935?v=3&s=466 or file
 
 # Comment
-# e.g disqus: seansun
+# e.g disqus: helloworld
 disqus:
 duoshuo:
-livere:
 
 # Analytics
 # google-analytics:

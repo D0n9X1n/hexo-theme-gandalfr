@@ -12,7 +12,7 @@ if ga
         | ,'auto');ga('send','pageview');
 
 script
-    | $(document).ready(function() { $('pre').each(function(i, block) { hljs.highlightBlock(block); }); });
+    | $(document).ready(function() { hljs.configure({useBR: true}); $('pre').each(function(i, block) { hljs.highlightBlock(block); }); });
 
 - var ca = theme.ca
 if ca

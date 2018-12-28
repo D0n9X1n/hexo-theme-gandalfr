@@ -5,8 +5,7 @@
 Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
 
 ### Features
-+ **LiveRe comment service support.**
-+ Code highlight.
++ Built-in Code highlight support.
 + Built-in hexo-tag-cloud support.
 + More comfortable with large screens.
 
