@@ -25,6 +25,10 @@
         color: #22bd77;
         padding: 10px;
     }
+    // when only one page, just hide the number.
+    .page-number:nth-last-child(1):first-child{
+        display:none;
+    }
     .current {
         color: #222 !important;
     }

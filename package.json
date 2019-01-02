@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-gandalfr",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Yet, just another blog theme for Hexo, based on hexo-theme-apollo",
   "main": "index.js",
   "scripts": {
