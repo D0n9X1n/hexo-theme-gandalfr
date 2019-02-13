@@ -1,10 +1,10 @@
-#TODO List
+# TODO List
 
-###Bugs
+### Bugs
 1. √ ~~Remove the tagcloud class if the screen is small.~~
 
 
-###Features
+### Features
 1. √ ~~add code highlight.~~
 2. √ ~~add hexo-tag-cloud support.~~
 3. √ ~~expand the width of the page.~~
