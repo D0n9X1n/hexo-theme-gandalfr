@@ -4,9 +4,8 @@ block container
     include mixins/post
     .archive
         h2(class='archive-year tagcloud')= 'Tags'
-        - var tagcloudRoot = config.root + "js/tagcloud.js"; var tagcanvasRoot = config.root + "js/tagcanvas.js";
-        script(type='text/javascript', charset='utf-8', src=tagcloudRoot)
-        script(type='text/javascript', charset='utf-8', src=tagcanvasRoot)
+        script(type='text/javascript', charset='utf-8', src=url_for("/js/tagcloud.js"))
+        script(type='text/javascript', charset='utf-8', src=url_for("/js/tagcanvas.js"))
         #myCanvasContainer.widget.tagcloud(align='center')
             canvas#resCanvas(width='600', height='500', align=center)
                 !=tagcloud()
