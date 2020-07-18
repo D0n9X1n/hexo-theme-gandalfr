@@ -11,7 +11,7 @@ Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
 
 ### Live Demo
 
-You can see from [here: mikecoder.github.io/oj-code](https://mikecoder.github.io/oj-code/)
+You can see from [here: mhexo.github.io](https://mhexo.github.io)
 
 ### How to Install
 ``` bash
