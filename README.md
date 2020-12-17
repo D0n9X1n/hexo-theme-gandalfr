@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/hexo-theme-gandalfr.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
 
-Yet, just another blog theme for Hexo, based on hexo-theme-apollo.
+Yet, just another blog theme for Hexo, based on [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo).
 
 ### Features
 + Built-in Code highlight support.
