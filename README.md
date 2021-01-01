@@ -1,6 +1,6 @@
 # hexo-theme-gandalfr
 
-[![npm version](https://badge.fury.io/js/hexo-theme-gandalfr.svg)](https://badge.fury.io/js/hexo-theme-gandalfr)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/D0n9x1n/hexo-theme-gandalfr?include_prereleases)
 
 Yet, just another blog theme for Hexo, based on [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo).
 
