@@ -23,7 +23,7 @@
   "homepage": "https://github.com/MikeCoder/hexo-theme-gandalfr#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^3.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^2.0.4"
   },
   "dependencies": {
